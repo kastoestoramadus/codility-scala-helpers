@@ -9,6 +9,7 @@ import com.codility.Solution
 object GenomicRangeQuery extends Solution[(String, Array[Int], Array[Int]), Array[Int]]{
   // def solution(S: String, P: Array[Int], Q: Array[Int]): Array[Int]
   override def solution(tup: (String, Array[Int], Array[Int])): Array[Int] = { val (s, p, q) = tup
+    // from here you can Copy/Paste between IDE and codility webpage
     val n = s.length()
     val A = new Array[Int](n + 1)
     val C = new Array[Int](n + 1)
